@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="nav_bar">
+        <h1>Library</h1>
+    </nav>
+    <div id="div_btn">
+        <button id="add_btn">+ Add book</button>
+    </div>
+
+    <div id="books">
+        <div class="book">
+            <h2 class="card_style">title</h2>
+            <h2 class="card_style">author</h2>
+            <h2 class="card_style">pages</h2>
+            <h2 class="card_check finishRead" value="read" onclick="toggle(event)">Not Read</h2>
+            <h2 class="card_btn">Remove</h2>
+        </div>
+    </div>
+
+    <div id="form_container">
+        <form id="addbook_form">
+            <h1>Add new book</h1>
+            <input type="text" name="title" id="title_box" class="input_box" placeholder="Title"><br>
+            <input type="text" name="author" id="author_box" class="input_box" placeholder="Author"><br>
+            <input type="number" name="pages" id="pages_box" class="input_box" placeholder="Pages"><br>
+
+            <label for="read">Have you read it?</label>
+            <input type="checkbox" name="read" id="read"> <br>
+            <button type="submit" id="submit_btn">Submit</button>
+        </form>
+    </div>
+    <footer>
+        <p>Copyright &copy; 2022 minkhantmaung <img src="img/github.png" alt="github" id="logo"></p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,145 @@
+/* body{
+    display: flex;
+    justify-content: space-between;
+} */
+
+body{
+    background-color: #eee;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+#nav_bar{
+    text-align: center;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 1px 5px gray;
+}
+
+#nav_bar h1{
+    font-size: 40px;
+}
+
+#div_btn{
+    margin-top: 200px;
+    text-align: center;
+}
+
+#add_btn{
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding:10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(158, 152, 152);
+    opacity: 0.5;
+}
+
+footer{
+    font-size: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#logo{
+    width: 20px;
+    align-self: center;
+    justify-self: center;
+}
+
+#form_container{
+    display: none;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 225px;
+}
+
+#addbook_form{
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(238, 197, 197);
+}
+
+.input_box{
+    padding: 10px 15px;
+    margin: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#addbook_form label{
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+#read{
+    margin-top: 5px;
+}
+
+#submit_btn{
+    margin-top: 5px;
+    padding: 5px 83px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+}
+
+#books{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.book{
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+.card_check{
+    border-radius: 5px;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.notRead
+{
+    background-color: red;
+}
+
+
+.finishRead
+{
+    background-color: green;
+}
+
+.card_btn{
+    border-radius: 5px;
+    padding: 8px 0;
+    cursor: pointer;
+}
+
+.card_btn:hover{
+    background-color: violet;
+}
